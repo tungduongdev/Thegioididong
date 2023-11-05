@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/fontawesome-free-6.3.0-web/css/all.min.css">
+    <link rel="shortcut icon" href="/img/favicon-16x16-removebg-preview.png" type="image/x-icon">
+    <title>THẾ GIỚI DI ĐỘNG</title>
+</head>
+<body>
+    <!-- PHẦN TRÊN CÙNG CỦA TRANG -->
+    <header class="header">
+        <img src="/img/1200x44-1200x44-1.webp" alt="Săn sale">
+    </header>
+    <nav>
+        <!-- PHẦN MENU -->
+        <div class="container">
+            <ul class="menu">
+                <li class="icon"><a href="/html/index.html"><img width="250px" height="50px" src="/img/screenshot_1678118647.png" alt="icon"></a></li>
+                <li>
+                    <a id="form-locate"> Xem giá tồn kho tại: <br>Thái Nguyên <a href=""><i class="fa-solid fa-sort-down"></i></a></a>
+                    <div class="adress_form" id="adress-form">
+                        <div class="adress_content">
+                            <div class="adress-content-header">
+                                <p>Quý khách vui lòng cho biết Địa chỉ nhận hàng để biết chính xác thời gian giao hàng</p>
+                                <div class="close-form" id="close-form">
+                                    <i class="fa-solid fa-xmark"><p></p></i>
+                                    <p>Đóng</p>
+                                </div>
+                            </div>
+                            <div class="adress-search">
+                                <input type="text" name="" id="" placeholder="Tìm nhanh tỉnh thành, quận huyện, phường xã">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <strong class="choose-province">Hoặc chọn tỉnh, thành phố</strong>
+                            <div class="listing-locate">
+                                <ul class="menu-locate">
+                                    <li>Thanh Hoá</li>
+                                    <li style="background-color: #fff;border: none;border-bottom: 1px solid #f1f1f1;padding: 10px;">Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li style="background-color: #fff;border: none;border-bottom: 1px solid #f1f1f1;padding: 10px;">Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </li>
+                <li>
+                    <form action="" method="get">
+                    <input type="text" name="keywords" placeholder="Bạn muốn tìm gì...">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    </form>
+                </li>
+                <li><a href=""> Lịch sử đơn hàng </a></li>
+                <li class="cart"><a href="/html/cart.html"><button><i class="fa-solid fa-cart-shopping"></i> Giỏ hàng
+                    <span id="total" class="cart-number has-cart"></span>
+                </button></a></li>
+                <li><a href=""> 24h Công nghệ</a></li>
+                <li><a href=""> Hỏi Đáp </a></li>
+                <li><a href=""> Game App </a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <nav>
+        <!-- PHẦN THANH CHON MENU -->
+        <section class="menu-bar">
+            <div class="container"></div>
+                <div class="menu-bar-content">
+                    <ul>
+                        <li><a href=""><i class="fa-solid fa-mobile-screen-button" ></i> Điện thoại</a></li>
+                        <li><a href=""><i class="fa-solid fa-laptop"></i> Laptop </a></li>
+                        <li><a href=""><i class="fa-solid fa-tablet"></i> Tablet</a></li>
+                        <li>
+                            <a href="" id="accessories"><i class="fa-solid fa-headphones" ></i> Phụ kiện <i class="fa-solid fa-sort-down"></i></a>
+                            <div class="navmwg close" id="navmwg">
+                                <div class="item-child">
+                                    <strong>Phụ kiện di động</strong>
+                                    <a href="">Sạc dự phòng</a>
+                                    <a href="">Pin sạc dự phòng</a>
+                                    <a href="">Cáp sạc</a>
+                                    <a href="">Củ sạc</a>
+                                    <a href="">Thẻ nhớ</a>
+                                    <a href="">USB OTG</a>
+                                    <a href="">Dán màn hình</a>
+                                    <a href="">Ốp lưng</a>
+                                    <a href="">Gậy chụp hình</a>
+                                </div>
+                                <div class="item-child">
+                                    <strong>Phụ kiện di động</strong>
+                                    <a href="">Sạc dự phòng</a>
+                                    <a href="">Pin sạc dự phòng</a>
+                                    <a href="">Cáp sạc</a>
+                                    <a href="">Củ sạc</a>
+                                    <a href="">Thẻ nhớ</a>
+                                    <a href="">USB OTG</a>
+                                    
+                                </div>
+                                <div class="item-child">
+                                    <strong>Phụ kiện di động</strong>
+                                    <a href="">Sạc dự phòng</a>
+                                    <a href="">Pin sạc dự phòng</a>
+                                    <a href="">Cáp sạc</a>
+                                    <a href="">Củ sạc</a>
+                                    <a href="">Thẻ nhớ</a>
+                                    
+                                </div>
+                                <div class="item-child">
+                                    <strong>Phụ kiện di động</strong>
+                                    <a href="">Sạc dự phòng</a>
+                                    <a href="">Pin sạc dự phòng</a>
+                                    <a href="">Cáp sạc</a>
+                                    <a href="">Củ sạc</a>
+                                    <a href="">Thẻ nhớ</a>
+                                   
+                                </div>
+                                <div class="item-child">
+                                   <a href="">Cáp sạc</a>
+                                    <a href="">Sạc dự phòng</a>
+                                    <a href="">Pin sạc dự phòng</a>
+                                    <a href="">Cáp sạc</a>
+                                    <a href="">Củ sạc</a>
+                                    
+                                </div>
+                                <div class="item-child">
+                                    <strong>Phụ kiện di động</strong>
+                                    <a href="">Sạc dự phòng</a>
+                                    <a href="">Pin sạc dự phòng</a>
+                                    <a href="">Cáp sạc</a>
+                                    <a href="">Củ sạc</a>
+                                
+                                </div>
+                                <div class="item-child">
+                                    <strong>Phụ kiện di động</strong>
+                                    <a href="">Sạc dự phòng</a>
+                                    <a href="">Pin sạc dự phòng</a>
+                                    <a href="">Cáp sạc</a>
+                                    <a href="">Củ sạc</a>
+                            
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href=""><i class="fa-solid fa-clock"></i> Smartwatch</a></li>
+                        <li><a href=""><i class="fa-solid fa-pager"></i> Đồng hồ</a></li>
+                        <li><a href=""><i class="fa-solid fa-mobile-screen-button"></i> Máy cũ giá rẻ</a></li>
+                        <li>
+                            <a id="PC-Show" href="#"><i class="fa-solid fa-desktop"></i> PC, Máy in <i class="fa-solid fa-sort-down"></i></a>
+                            <div class="navmwg limit close" id="navmwg-limit">
+                                <a href="">Máy in</a>
+                                <a href="">Máy tính</a>
+                                <a href="">Máy tính bảng</a>
+                                <a href="">Máy case</a>
+                                <a href="">Máy in</a>
+                            </div>
+                        </li>
+                        <li><a href="">Sim, Thẻ cào</a></li>
+                        <li><a href="">Dịch vụ tiện ích</a></li>
+                    </ul>
+                </div>
+
+        </section>
+    </nav>
+    <section style="background-color: #f3f3f3;">
+    <!-- ẢNH NỀN -->
+    <img class="picture" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/04/banner/Banner-Big-Mono-Desk-1920x450.png" alt="">
+    <!-- SLDER------------ -->
+
+    <section class="silder">
+        <div class="container1">
+            <div class="slide-content">
+                <div id="slide-img" class="slide-img">
+                    <div class="slider-right ">
+                        <img src="/img/pk8.3-720-220-720x220.webp" alt="">
+                    </div>
+                    <div class="slider-left ">
+                        <img src="/img/dh-free-720-220-720x220-1.webp" alt="">
+                    </div>
+                    <div class="slider-right ">
+                        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/10/banner/S23fe-720-220-720x220.png" alt="">
+                    </div>
+                    <div class="slider-left ">
+                        <img src="/img/DH-Ty-Ty-720-220-720x220.webp" alt="">
+                    </div>
+                    <div class="slider-right " >
+                        <img src="/img/b2s-720-220-720x220-1.webp" alt="">
+                    </div>
+                    <div class="slider-left ">
+                        <img src="/img/IP15-720-220-720x220-5.webp" alt="">
+                    </div>
+                    <div class="slider-right " >
+                        <img src="/img/SPDQ-720-220-720x220-2.webp" alt="">
+                    </div>
+                    <div class="slider-left ">
+                        <img src="/img/C51-720-220-720x220-3.webp" alt="">
+                    </div>
+                    <div class="slider-right " >
+                        <img src="/img/Mua-kem-720-220-720x220-1.webp" alt="">
+                    </div>
+                    <div class="slider-left ">
+                        <img src="/img/IP15-720-220-720x220-5.webp" alt="">
+                    </div>
+                    <div class="slider-right " >
+                        <img src="/img/b2s-720-220-720x220-1.webp" alt="">
+                    </div>
+                    <div class="slider-left ">
+                        <img src="/img/IP15-720-220-720x220-5.webp" alt="">
+                    </div>
+                </div>
+                
+                <div class="arrow">
+                    <div onclick="nextSlide()" class="arrow-left">
+                        <a href="#">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                    </div>
+                    <div class="arrow-right">
+                        <a href="#">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </a>
+                </div>
+            </div>
+            </div>
+    </section>
+    
+    <!-- LỰA CHỌN -->
+    <ul class="opption-promo">
+        <li>
+            <a href="">
+            <img width="60px" height="60px" src="/img/icon-TGDD-OF-100x100.gif" alt="">
+            <span> Điện thoại xả kho </span>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img width="60px" height="60px" src="/img/120-x-120a-120x120.webp" alt="">
+                <span> Đồng hồ xả kho </span>
+                </a>
+        </li>
+        <li>
+            <a href="">
+                <img width="60px" height="60px" src="/img/100x100-100x100-31.webp" alt="">
+                <span>Phụ kiện xả hàng</span>
+                </a>
+        </li>
+        <li>
+            <a href="">
+                <img width="60px" height="60px" src="/img/Frame-46604--1--120x120-1.webp" alt="">
+                <span>Điện thoại độc quyền</span>
+                </a>
+        </li>
+    </ul>
+    <div class="bannertopzone-home">
+        <img src="/img/Promote-TZ-Des--1--1200x100.webp" alt="">
+    </div>
+    <div class="hotdeal">
+        <img src="/img/Tagline-Deal-ngon-moi-ngay-1200x120.webp" alt="">
+    </div>
+    <!-- -----------SLIDE PRODUCT ONE------------- -->
+    <section class="slider-product-one">
+            <div class="container2">
+                <div class="slider-product-one-content">
+                    <div class="slider-product-one-content-items">
+                        
+                        <a class="slider-product-one-content-item" href="chitietsp.html">
+                                <img src="/img/iphone-14-pro-max-vang-thumb-600x600.webp" alt="IP14promax">
+                                <div class="slider-product-one-content-item-text">
+                                    <li><img src="/img/icon3-50x50.webp" alt=""><p>GIẢM THÊM 1TR</p></li>
+                                    <li>Iphone 14 Pro Max 128GB</li>
+                                    <li>29.490.000₫<span>-14%</span></li>
+                                    <li><span><img width="15px" height="15px" src="/img/download.png" alt=""> Giá tốt: 28.190.000₫</span></li>
+                                    <li>4.6 <i class="fa-solid fa-star"></i> (210)</li>
+                                </div> 
+                        </a>
+                        <a class="slider-product-one-content-item" href="chitietsp.html">
+                            <img src="/img/Samsung-Galaxy-S21-FE-vang-1-2-600x600.webp" alt="Samsungs21">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img src="/img/icon1-50x50.webp" alt=""><p>TUẦN LỄ SAMSUNG</p></li>
+                                <li>Samsung Galaxy S21 5G</li>
+                                <li>10.490.000₫<span>-18%</span></li>
+                                <li><span><img width="15px" height="15px" src="/img/download.png" alt=""> Giá tốt: 9.190.000₫</span></li>
+                                <li>4.3 <i class="fa-solid fa-star"></i> (310)</li>
+                            </div>
+                        <a>
+                        <a class="slider-product-one-content-item" href="">
+                                <img src="/img/xiaomi-13-lite-den-thumb-600x600.webp" alt="Xiaomi13">
+                                <div class="slider-product-one-content-item-text">
+                                    <li><p style="text-align: center;" >ĐẶT TRƯỚC NGAY</p></li>
+                                    <li>Xiaomi 13 lite 5G</li>
+                                    <li>Hàng sắp về</li>
+                                    <li style="color: #d42611;">11.490.000₫</li>
+                                    <li>Giảm ngay 1 triệu hoặc tặng tai nghe Xiaomi Busb3</li>
+                                </div>
+                        </a>
+                        <a class="slider-product-one-content-item" href="">
+                                <img src="/img/oppo-a57-den-thumb-600x600.webp" alt="IP14promax">
+                                <div class="slider-product-one-content-item-text">
+                                    <li style="justify-items: center;"><p>OPPO A57 128GB</p></li>
+                                    <li style="color: #d42611;">4.590.000₫<span style="color: #df2463;
+                                        background: #fff0e9;
+                                        border-radius: 4px;
+                                        text-align: center;
+                                        padding: 2px;
+                                        margin-left: 5px;">-8%</span></li>
+                                    <li>4.1 <i class="fa-solid fa-star"></i> (175)</li>
+                                </div>
+                        </a>
+                        <a style="margin-right: 0px; margin-left: 10px;" class="slider-product-one-content-item" href="">
+                                <img src="/img/samsung-galaxy-s23-600x600.webp" alt="IP14promax">
+                                <div class="slider-product-one-content-item-text">
+                                    <li><img src="/img/icon1-50x50.webp" alt=""><p>TUẦN LỄ SAMSUNG</p></li>
+                                    <li>Samsung Galaxy S23 5G</li>
+                                    <li>29.490.000₫<span>-14%</span></li>
+                                    <li>Giá tốt: 28.190.000₫</li>
+                                    <li>4.6 <i class="fa-solid fa-star"></i> (210)</li>
+                                </div>
+                        </a>
+                    </div>
+                    <a class="more" href="">Xem tất cả<i class="fa-solid fa-caret-right"></i></i></a>      
+                </div>   
+            </div>
+    </section>
+    <!-- PRODUCT 2 -->
+    <section class="slider-product-one">
+        <div class="container">
+            <div style="margin-top: 20px; background-color: #092dc6;" class="slider-product-one-content">
+                <h2>TUẦN LỄ SAMSUNG</h2>
+                <div class="banner">
+                    <div><img src="/img/S23-Series-380x200.webp" alt=""></div>
+                    <div><img src="/img/S20S21-Series-380x200.webp" alt=""></div>
+                    <div><img src="/img/S21-FE-380x200.webp" alt=""></div>
+                </div>
+                <div class="slider-product-one-content-items">
+                    <div class="slider-product-one-content-item">
+                        <img src="/img/pr2.webp" alt="IP14promax">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img src="/img/icon1-50x50.webp" alt=""><p>TUẦN LỄ SAMSUNG</p></li>
+                                <li>Samsung Galaxy S23 5GB</li>
+                                <li>19.490.000₫<span>-14%</span></li>
+                                <li>4.6 <i class="fa-solid fa-star"></i> (210)</li>
+                            </div>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="/img/pr2.2.webp" alt="Samsungs21">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img src="/img/icon1-50x50.webp" alt=""><p>TUẦN LỄ SAMSUNG</p></li>
+                                <li>Samsung Galaxy S21 5G</li>
+                                <li>10.490.000₫<span>-18%</span></li>
+                                <li>4.3 <i class="fa-solid fa-star"></i> (310)</li>
+                            </div>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="/img/pr2.3.webp" alt="Xiaomi13">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img src="/img/icon1-50x50.webp" alt=""><p>TUẦN LỄ SAMSUNG</p></li>
+                                <li>Samsung Galaxy S20 FE</li>
+                                <li>Hàng sắp về</li>
+                                <li>7.490.000₫</li>
+                                <li>3.3 <i class="fa-solid fa-star"></i> (310)</li>
+                            </div>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="/img/pr2.4.webp" alt="IP14promax">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img src="/img/icon1-50x50.webp" alt=""><p>TUẦN LỄ SAMSUNG</p></li>
+                                <li><p>OPPO A57 128GB</p></li>
+                                <li>4.590.000₫<span>-8%</span></li>
+                                <li>4.1 <i class="fa-solid fa-star"></i> (175)</li>
+                            </div>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="/img/pr2.5.webp" alt="IP14promax">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img src="/img/icon1-50x50.webp" alt=""><p>TUẦN LỄ SAMSUNG</p></li>
+                                <li>Samsung Galaxy S23 5G</li>
+                                <li>29.490.000₫<span>-14%</span></li>
+                                <li>Giá tốt: 28.190.000₫</li>
+                                <li>4.6 <i class="fa-solid fa-star"></i> (210)</li>
+                            </div>
+                    </div>
+                </div>
+                <a class="more" href="">Xem tất cả sản phẩm</a>      
+            </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SOPPING-TRENDS -->
+    <section class="slider-product-one">
+        <div class="container">
+            <div class="shopping-trends">
+                <div class="shopping-trends-title">
+                    <h2>XU HƯỚNG MUA SẮM</h2>
+                </div>
+                <div class="shopping-trends-items">
+                    <div class="shopping-trends-item">
+                        <li><img src="/img/xu-huong-xa-kho-desk-280x235.webp" alt=""></li>
+                        <li>Laptop Giá Rẻ</li>
+                        <li>Giá chỉ từ: 4.490.000đ</li>
+                    </div>
+                    <div class="shopping-trends-item">
+                        <li><img src="/img/Xu-Hướng-280x235-280x235-1.webp" alt=""></li>
+                        <li>Đồng hồ sale sốc đến 70%</li>
+                        <li>Mã giảm thêm 10%</li>
+                    </div>
+                    <div class="shopping-trends-item">
+                        <li><img src="/img/280x235-280x235.webp" alt=""></li>
+                        <li>Điện thoại</li>
+                        <li>Galaxy S23 Series</li>
+                    </div>
+                    <div class="shopping-trends-item">
+                        <li><img src="/img/Airpods-Pro-Desk-280x235-1.webp" alt=""></li>
+                        <li>Airpods pro</li>
+                        <li>Giá chỉ từ: 4.990.000đ</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SERVICE-CONV -->
+    <div class="service-conv">
+        <h2 class="name-box">DỊCH VỤ TIỆN ÍCH</h2>
+        <ul>
+            <li>
+            <div class="box-iconv">
+            <p class="iconnewglobal-card">&nbsp;</p>
+            </div>
+            <div class="text-conv"><a href="https://www.thegioididong.com/tien-ich/the-cao-dien-thoai"><small class="text-conv-title">Mua Mã thẻ cào</small> <small><strong>Giảm 2%</strong> cho mệnh giá từ 100.000 trở lên</small></a></div>
+            </li>
+            <li>
+            <div class="box-iconv">
+            <p class="iconnewglobal-service">&nbsp;</p>
+            </div>
+            <div class="text-conv"><a href="https://www.thegioididong.com/tien-ich/thanh-toan-tien-dien"><small class="text-conv-title">Dịch Vụ Đóng Tiền</small> <small>Điện, Nước, Internet, Cước điện thoại trả sau</small></a></div>
+            </li>
+            <li>
+            <div class="box-iconv">
+            <p class="iconnewglobal-game">&nbsp;</p>
+            </div>
+            <div class="text-conv"><a href="https://www.thegioididong.com/tien-ich/the-cao-game"><small class="text-conv-title">Mua thẻ game</small> <small><strong style="color:#d42611" >Giảm 2%</strong> cho tất cả nhà mạng, áp dụng cho mệnh giá từ 300.000 trở lên</small></a></div>
+            </li>
+            <li>
+            <div class="box-iconv">
+            <p class="iconnewglobal-ticket">&nbsp;</p>
+            </div>
+            <div class="text-conv"><a href="https://www.thegioididong.com/windows-ban-quyen#office"><small class="text-conv-title">Office bản quyền</small><small>Mua Microsoft Office giá chỉ từ 990k</small></a></div>
+            </li>
+        </ul>
+    </div>
+    
+    <section class="slider-product-one">
+        <div class="container">
+            <div class="today-sug">
+                <div class="today-sug-title">
+                    <h2>GỢI Ý HÔM NAY</h2>
+                </div>
+                <ul>
+                    <li>
+                        <a href="">
+                        <img width="60px" height="60px" src="/img/pk-50-50x50-50x50-2.webp" alt="">
+                        <span>Phụ kiện giảm sốc</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img width="60px" height="60px" src="/img/icon-laptop-gaming-desk-50x50-50x50.webp" alt="">
+                            <span>Đồng hồ xả kho</span>
+                            </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img width="60px" height="60px" src="/img/goiy-1.webp" alt="">
+                            <span>Cho bạn</span>
+                            </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img width="60px" height="60px" src="/img/Desk11-50x50-1-50x50-1.webp" alt="">
+                            <span>Tablet giá rẻ</span>
+                            </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- PRODUCT3 -->
+    <section class="slider-product-one">
+        <div class="container">
+                <div style="margin-top: 20px;" class="slider-product-one-content-items">
+                    <div class="slider-product-one-content-item">
+                        <img src="/img2/apple-macbook-air-2020-mgn63saa-(69).webp" alt="IP14promax">
+                            <div class="slider-product-one-content-item-text">
+                                <li style="background: linear-gradient(to right,#faab08,#d42611);"><img src="/img2/icon5-50x50.webp" alt=""><p>QUẤT TAN MỌI GIÁ</p></li>
+                                <li>Samsung Galaxy S23 5GB</li>
+                                <li>19.490.000₫<span>-14%</span></li>
+                                <li>4.6 <i class="fa-solid fa-star"></i> (210)</li>
+                            </div>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="/img2/asus-tuf-gaming-fx506lhb-i5-hn188w-(44).webp" alt="Samsungs21">
+                            <div class="slider-product-one-content-item-text">
+                                <li style="background: linear-gradient(to right,#faab08,#d42611);"><img src="/img2/icon5-50x50.webp" alt=""><p>QUẤT TAN MỌI GIÁ</p></li>
+                                <li>Samsung Galaxy S21 5G</li>
+                                <li>10.490.000₫<span>-18%</span></li>
+                                <li>4.3 <i class="fa-solid fa-star"></i> (310)</li>
+                            </div>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="/img2/ban-phim-magic-keyboard-apple-mk2a3-thumb1-600x600.webp" alt="Xiaomi13">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img src="/img/icon1-50x50.webp" alt=""><p>TUẦN LỄ SAMSUNG</p></li>
+                                <li>Samsung Galaxy S20 FE</li>
+                                <li>Hàng sắp về</li>
+                                <li>7.490.000₫</li>
+                                <li>3.3 <i class="fa-solid fa-star"></i> (310)</li>
+                            </div>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="/img2/bluetooth-true-wireless-mozard-ts11-mini-avatar-1-1-600x600.webp" alt="IP14promax">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img src="/img/icon1-50x50.webp" alt=""><p>TUẦN LỄ SAMSUNG</p></li>
+                                <li><p>OPPO A57 128GB</p></li>
+                                <li>4.590.000₫<span>-8%</span></li>
+                                <li>4.1 <i class="fa-solid fa-star"></i> (175)</li>
+                            </div>
+                        </div>
+                        <div  class="slider-product-one-content-item">
+                            <img  src="/img2/dong-ho-befit-b4-thumbnn-600x600.webp" alt="IP14promax">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img  src="/img/icon1-50x50.webp" alt=""><p>TUẦN LỄ SAMSUNG</p></li>
+                                <li>Samsung Galaxy S23 5G</li>
+                                <li>29.490.000₫<span>-14%</span></li>
+                                <li>Giá tốt: 28.190.000₫</li>
+                                <li>4.6 <i class="fa-solid fa-star"></i> (210)</li>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+                <div class="slider-product-one-content-items1">
+                    <div class="slider-product-one-content-item">
+                        <img src="/img2/hp-240-g9-i5-6l1y1pa-(8).webp" alt="IP14promax">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img src="/img/icon1-50x50.webp" alt=""><p>TUẦN LỄ SAMSUNG</p></li>
+                                <li>Samsung Galaxy S23 5GB</li>
+                                <li>19.490.000₫<span>-14%</span></li>
+                                <li>4.6 <i class="fa-solid fa-star"></i> (210)</li>
+                            </div>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="/img2/iphone-11-trang-600x600.webp" alt="Samsungs21">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img src="/img/icon1-50x50.webp" alt=""><p>TUẦN LỄ SAMSUNG</p></li>
+                                <li>Samsung Galaxy S21 5G</li>
+                                <li>10.490.000₫<span>-18%</span></li>
+                                <li>4.3 <i class="fa-solid fa-star"></i> (310)</li>
+                            </div>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="/img2/iphone-14-pro-max-vang-thumb-600x600 (1).webp" alt="Xiaomi13">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img src="/img/icon1-50x50.webp" alt=""><p>TUẦN LỄ SAMSUNG</p></li>
+                                <li>Samsung Galaxy S20 FE</li>
+                                <li>Hàng sắp về</li>
+                                <li>7.490.000₫</li>
+                                <li>3.3 <i class="fa-solid fa-star"></i> (310)</li>
+                            </div>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="/img2/lenovo-ideapad-3-15iau7-i3-82rk005lvn-(12).webp" alt="IP14promax">
+                            <div class="slider-product-one-content-item-text">
+                                <li style="background: linear-gradient(to right,#faab08,#d42611);"><img src="/img2/icon5-50x50.webp" alt=""><p>QUẤT TAN MỌI GIÁ</p></li>
+                                <li><p>OPPO A57 128GB</p></li>
+                                <li>4.590.000₫<span>-8%</span></li>
+                                <li>4.1 <i class="fa-solid fa-star"></i> (175)</li>
+                            </div>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="/img2/oppo-reno8t-vang1-thumb-600x600.webp" alt="IP14promax">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img src="/img/icon1-50x50.webp" alt=""><p>TUẦN LỄ SAMSUNG</p></li>
+                                <li>Samsung Galaxy S23 5G</li>
+                                <li>29.490.000₫<span>-14%</span></li>
+                                <li>Giá tốt: 28.190.000₫</li>
+                                <li>4.6 <i class="fa-solid fa-star"></i> (210)</li>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+                <div class="slider-product-one-content-items1">
+                    <div class="slider-product-one-content-item">
+                        <img src="/img2/realme-c21-y-blue-600x600.webp" alt="IP14promax">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img src="/img/icon1-50x50.webp" alt=""><p>TUẦN LỄ SAMSUNG</p></li>
+                                <li>Samsung Galaxy S23 5GB</li>
+                                <li>19.490.000₫<span>-14%</span></li>
+                                <li>4.6 <i class="fa-solid fa-star"></i> (210)</li>
+                            </div>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="/img2/sac-du-phong-10000mah-anker-powercore-select-a1223-thumb-600x600.webp" alt="Samsungs21">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img src="/img/icon1-50x50.webp" alt=""><p>TUẦN LỄ SAMSUNG</p></li>
+                                <li>Samsung Galaxy S21 5G</li>
+                                <li>10.490.000₫<span>-18%</span></li>
+                                <li>4.3 <i class="fa-solid fa-star"></i> (310)</li>
+                            </div>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="/img2/samsung-galaxy-a23-den-thumb-600x600.webp" alt="Xiaomi13">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img src="/img/icon1-50x50.webp" alt=""><p>TUẦN LỄ SAMSUNG</p></li>
+                                <li>Samsung Galaxy S20 FE</li>
+                                <li>Hàng sắp về</li>
+                                <li>7.490.000₫</li>
+                                <li>3.3 <i class="fa-solid fa-star"></i> (310)</li>
+                            </div>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="/img2/samsung-galaxy-a33-5g-thumb-new-1-600x600.webp" alt="IP14promax">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img src="/img/icon1-50x50.webp" alt=""><p>TUẦN LỄ SAMSUNG</p></li>
+                                <li><p>OPPO A57 128GB</p></li>
+                                <li>4.590.000₫<span>-8%</span></li>
+                                <li>4.1 <i class="fa-solid fa-star"></i> (175)</li>
+                            </div>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="/img2/Xiaomi-Redmi-A1-thumb-xanh-duong-600x600.webp" alt="IP14promax">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img src="/img/icon1-50x50.webp" alt=""><p>TUẦN LỄ SAMSUNG</p></li>
+                                <li>Samsung Galaxy S23 5G</li>
+                                <li>29.490.000₫<span>-14%</span></li>
+                                <li>Giá tốt: 28.190.000₫</li>
+                                <li>4.6 <i class="fa-solid fa-star"></i> (210)</li>
+                            </div>
+                        </div>    
+                    </div>
+                </div>    
+                <div class="slider-product-one-content-items1">
+                    <div class="slider-product-one-content-item">
+                        <img src="/img2/xiaomi-redmi-12c-blue-thumb-600x600.webp" alt="IP14promax">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img src="/img/icon1-50x50.webp" alt=""><p>TUẦN LỄ SAMSUNG</p></li>
+                                <li>Samsung Galaxy S23 5GB</li>
+                                <li>19.490.000₫<span>-14%</span></li>
+                                <li>4.6 <i class="fa-solid fa-star"></i> (210)</li>
+                            </div>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="/img2/vivo-v25e-vang-thumb-1-2-600x600.webp" alt="Samsungs21">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img src="/img/icon1-50x50.webp" alt=""><p>TUẦN LỄ SAMSUNG</p></li>
+                                <li>Samsung Galaxy S21 5G</li>
+                                <li>10.490.000₫<span>-18%</span></li>
+                                <li>4.3 <i class="fa-solid fa-star"></i> (310)</li>
+                            </div>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="/img2/type-c-pd-25w-belkin-wca004-ava-600x600.webp" alt="Xiaomi13">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img src="/img/icon1-50x50.webp" alt=""><p>TUẦN LỄ SAMSUNG</p></li>
+                                <li>Samsung Galaxy S20 FE</li>
+                                <li>Hàng sắp về</li>
+                                <li>7.490.000₫</li>
+                                <li>3.3 <i class="fa-solid fa-star"></i> (310)</li>
+                            </div>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="/img2/Samsung-Galaxy-S21-FE-vang-1-2-600x600.webp" alt="IP14promax">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img src="/img/icon1-50x50.webp" alt=""><p>TUẦN LỄ SAMSUNG</p></li>
+                                <li><p>OPPO A57 128GB</p></li>
+                                <li>4.590.000₫<span>-8%</span></li>
+                                <li>4.1 <i class="fa-solid fa-star"></i> (175)</li>
+                            </div>
+                        </div>
+                        <div class="slider-product-one-content-item">
+                            <img src="/img2/Samsung-Galaxy-A53-xanh-thumb-600x600.webp" alt="IP14promax">
+                            <div class="slider-product-one-content-item-text">
+                                <li><img src="/img/icon1-50x50.webp" alt=""><p>TUẦN LỄ SAMSUNG</p></li>
+                                <li>Samsung Galaxy S23 5G</li>
+                                <li>29.490.000₫<span>-14%</span></li>
+                                <li>Giá tốt: 28.190.000₫</li>
+                                <li>4.6 <i class="fa-solid fa-star"></i> (210)</li>
+                            </div>
+                        </div>    
+                    </div>
+                </div>      
+            </div>     
+            </div>
+            </div>
+        </div>
+    </div>
+        <div class="more">
+            <a href="">XEM THÊM</a>
+        </div>
+        </section>
+        <!-- TRADEMARK -->
+        <section class="slider-product-one">
+            <div class="container">
+                <div style="background-color: #f3f3f3;" class="trend-mark">
+                    <div class="trademark-title">
+                        <h2>CHUYÊN TRANG THƯƠNG HIỆU</h2>
+                    </div>
+                    <div class="trademark-items">
+                        <div class="trademark-item">
+                            <li><a href=""><img width="393.33px" height="211.79px" src="/img/ver2-lenovo-390x210.webp" alt=""></a></li>
+                        </div>
+                        <div class="trademark-item">
+                            <li><a href=""><img width="393.33px" height="211.79px" src="/img/samsung-390-210-390x210.webp" alt=""></a></li>
+                        </div>
+                        <div class="trademark-item">
+                            <li><a href=""><img width="393.33px" height="211.79px" src="/img/4138F801-4823-44D5-B626-32025C4D329C-390x210.webp" alt=""></a></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- DANH MỤC NỔI BẬT -->
+        <section class="cate-feature">
+            <div class="container">
+                <div class="cate-feature-all">
+                    <div class="cate-feature-title">
+                <h2>DANH MỤC NỔI BẬT</h2>
+            </div>
+            <div class="cate-feature-items1">
+                <div class="cate-feature-item">
+                        <li><img width="60px" height="60px" src="/img/Laptop-129x129.webp" alt=""></li>
+                        <li>Laptop</li>
+                </div>
+                <div class="cate-feature-item">
+                    <li><img  width="60px" height="60px" src="/img/ban-phim-128x129.webp" alt=""></li>
+                    <li>Bàn phím</li>
+                </div>
+                <div class="cate-feature-item">
+                    <li><img width="60px" height="60px" src="/img/Capsac-129x129.webp" alt=""></li>
+                    <li>Cáp sạc</li>
+                </div>
+                <div class="cate-feature-item">
+                    <li><img width="60px" height="60px" src="/img/chuot-128x129.webp" alt=""></li>
+                    <li>Chuột</li>
+                </div>
+                <div class="cate-feature-item">
+                    <li><img width="60px" height="60px" src="/img/Donghothoitrang-128x129.webp" alt=""></li>
+                    <li>Đồng hồ thời trang</li>
+                </div>
+                <div class="cate-feature-item">
+                    <li><img width="60px" height="60px" src="/img/Donghothongminh-128x129.webp" alt=""></li>
+                    <li>Đồng hồ thông minh</li>
+                </div>
+                <div class="cate-feature-item">
+                    <li><img width="60px" height="60px" src="/img/icon-camera-128x129.webp" alt=""></li>
+                    <li>Camera</li>
+                </div>
+                <div class="cate-feature-item">
+                    <li><img width="60px" height="60px" src="/img/icon-DTGR-30x30.webp" alt=""></li>
+                    <li>Điện thoại độc quyền</li>
+                </div>
+                <div class="cate-feature-item">
+                    <li><img width="60px" height="60px" src="/img/Loa-128x128.webp" alt=""></li>
+                    <li>Loa</li>
+                </div>
+                <div class="cate-feature-item">
+                    <li><img width="60px" height="60px" src="/img/Manhinhmaytinh-128x129.webp" alt=""></li>
+                    <li>Màn hình máy tính</li>
+                </div>
+            </div>
+            <div class="cate-feature-items2">
+                <div class="cate-feature-item">
+                    <li><img width="60px" height="60px" src="/img/may-chieu-icon-128x129.webp" alt=""></li>
+                   <li>Máy chiếu</li>
+               </div>
+               <div class="cate-feature-item">
+                   <li><img width="60px" height="60px" src="/img/Mayin-128x129.webp" alt=""></li>
+                   <li>Máy in</li>
+               </div>
+               <div class="cate-feature-item">
+                   <li><img width="60px" height="60px" src="/img/Maytinhbo-128x129.webp" alt=""></li>
+                   <li>Laptop</li>
+               </div>
+               <div class="cate-feature-item">
+                   <li><img width="60px" height="60px" src="/img/Oplung-128x128.webp" alt=""></li>
+                   <li>Ốp lưng</li>
+               </div>
+               <div class="cate-feature-item">
+                   <li><img width="60px" height="60px" src="/img/Phukiengaming-128x129.webp" alt=""></li>
+                   <li>Phụ kiện gaming</li>
+               </div>
+               <div class="cate-feature-item">
+                   <li><img width="60px" height="60px" src="/img/Sacduphong-128x129.webp" alt=""></li>
+                   <li>Sạc dự phòng</li>
+               </div>
+               <div class="cate-feature-item">
+                   <li><img width="60px" height="60px" src="/img/Tainghe-128x129.webp" alt=""></li>
+                   <li>Tai nghe</li>
+               </div>
+               <div class="cate-feature-item">
+                   <li><img width="60px" height="60px" src="/img/may-chieu-icon-128x129 (1).webp" alt=""></li>
+                   <li>Laptop</li>
+               </div>
+               <div class="cate-feature-item">
+                   <li><img width="60px" height="60px" src="/img/Tablet-128x129.webp" alt=""></li>
+                   <li>Tablet</li>
+               </div>
+               <div class="cate-feature-item">
+                   <li><img width="60px" height="60px" src="/img/Simthecao-129x129.webp" alt=""></li>
+                   <li>Sim thẻ cào</li>
+               </div>
+            </div>
+        </div>
+        </div>
+        </section>
+
+        <!-- NEW-CHAIN -->
+        <section class="slider-product-one">
+            <div class="container">
+                <div style="background-color: #f3f3f3;" class="trend-mark">
+                    <div class="trademark-title">
+                        <h2>CHUỖI MỚI DEAL KHỦNG</h2>
+                    </div>
+                    <div class="trademark-items">
+                        <div class="trademark-item">
+                            <li><a href=""><img width="393.33px" height="211.79px" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/03/banner/TaoNo760-400-760x400.png" alt=""></a></li>
+                        </div>
+                        <div class="trademark-item">
+                            <li><a href=""><img width="393.33px" height="211.79px" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/03/banner/760-400-760x400-3.png" alt=""></a></li>
+                        </div>
+                        <div class="trademark-item">
+                            <li><a href=""><img width="393.33px" height="211.79px" src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/04/banner/760x400--1--760x400-2.jpg" alt=""></a></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FOOTER -->
+        <section class="slider-product-one">
+            <div class="container">
+                <div style="background-color: #008847;" class="product-box">
+                    <div class="product-box-title">
+                        <span><img src="/img/logoBHX (1).webp" alt=""> FREESHIP cho đơn hàng từ 300.000đ <p>(Đây là khuyến mãi của website cùng tập đoàn MWG)</p></span>
+                        <span class="show-text"> <p>Xem thêm 10.000+ sản phẩm khuyến mại</p> <i class="fa-regular fa-circle-right"></i></span>
+                    </div>
+                    <div class="product-box-items">
+                        <div class="_voucher">
+                            <div class="title-voucher">Tặng thêm mã giảm 10%</div>
+                            <div class="voucher_content">
+                                <div class="input-email">
+                                    <input type="email" value="" placeholder="Nhập email*">
+                                </div>
+                                <div class="input-tell">
+                                    <input type="tel" value="" placeholder="Nhập SĐT*">
+                                </div>
+                                <div class="take-voucher">
+                                    <button>NHẬN MÃ</button>
+                                </div>
+                                <div class="note">
+                                    *Áp dụng cho khách lần đầu mua hàng tại BachhoaXANH
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-box-item">
+                            <li><a href=""><img src="/img/1120-x-1760-280x440.webp" alt=""></a></li>
+                        </div>
+                        <div class="product-box-item">
+                            <li><a href=""><img src="/img/BOX-TRUYỀN-THÔNG-280x440-TGDDxBHX-280x440-1.webp" alt=""></a></li>
+                        </div>
+                        <div class="product-box-item">
+                            <li><a href=""><img src="/img/BOX-TRUYỀN-THÔNG-280x440-TGDDxBHX-280x440-2.webp" alt=""></a></li>
+                        </div>
+                        <div class="product-box-item">
+                            <li><a href=""><img src="/img/BOX-TRUYỀN-THÔNG-280x440-TGDDxBHX-280x440.webp" alt=""></a></li>
+                        </div>
+                        <div class="product-box-item">
+                            <li><a href=""><img src="/img/Untitled-1-280x440-3.webp" alt=""></a></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- STICKY-LIDEBAR -->
+    <div class="sticky-slidebar">
+        <img src="/img2/Bo-campaign-trang-chu-80x270.webp" alt="">
+        <img src="/img2/22-80x270.webp" alt="">
+    </div>
+        </section>
+        <footer>
+            <div class="row">
+                <div class="box">
+                    <div class="boxfooter-1">
+                        <ul class="boxfooter-1-items">
+                            <li><a href="">Tích điểm Quà tặng VIP</a></li>
+                            <li><a href="">Lịch sử mua hàng</a></li>
+                            <li><a href="">Tìm hiểu về mua trả góp</a></li>
+                            <li><a href="">Chính sách bảo hành</a></li>
+                            <li><a href="">Đăng kí / Đăng nhập</a></li>
+                            <li><a href="">Xem thêm <i class="fa-solid fa-caret-down"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="boxfooter-2">
+                        <ul class="boxfooter-1-items">
+                            <li><a href="">Giới thiệu công ty (MWG.vn)</a></li>
+                            <li><a href="">Tuyển dụng</a></li>
+                            <li><a href="">Gửi góp ý, khiếu nại</a></li>
+                            <li><a href="">Tìm siêu thị (3.383 shop)</a></li>
+                            <li><a href="">Xem bản mobile</a></li>
+                        </ul>
+                    </div>
+                    <div class="boxfooter-3">
+                        <ul class="boxfooter-1-items">
+                            <li><a href=""><strong>Tổng đài hỗ trợ (Miễn phí gọi)</strong></a></li>
+                            <li><a href="">Gọi mua: <p>1800.1060</p> (7:30 - 22:00)</a></li>
+                            <li><a href="">Khiếu nại: <p>1800.1062</p> (8:00 - 21:30)</a></li>
+                            <li><a href="">Bảo hành: <p>1800.1064</p> (8:00 - 21:00)</a></li>
+                        </ul>
+                    </div>
+                    <div class="boxfooter-4">
+                        <ul class="boxfooter-1-items">
+                            <img width="348px" height="11%" src="/img2/screenshot_1681141793.png" alt="">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+       
+        <!-- COPYRIGHT -->
+        <div class="copyright">
+            <section>
+                <p>© 2018. Công ty cổ phần Thế Giới Di Động. GPDKKD: 0303217354 do sở KH & ĐT TP.HCM cấp ngày 02/01/2007. GPMXH: 238/GP-BTTTT do Bộ Thông Tin và Truyền Thông cấp ngày 04/06/2020.<br>
+                Địa chỉ: 128 Trần Quang Khải, P. Tân Định, Q.1, TP.Hồ Chí Minh. Điện thoại: 028 38125960. Email: cskh@thegioididong.com. Chịu trách nhiệm nội dung: Vũ Tùng Dương.<a style="color: #092dc6;" href="">Xem chính sách sử dụng</a></p>
+            </section>
+        </div>
+        <!-- STICKY SIDER.ACTION -->
+    </section>
+</body>
+<script src="/js/main.js"></script>
+</html>

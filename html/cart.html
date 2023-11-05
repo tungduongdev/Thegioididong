@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="shortcut icon" href="/img/favicon-16x16-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/cart.css">
+    <link rel="stylesheet" href="/fontawesome-free-6.3.0-web/css/all.min.css">
+</head>
+<body >
+    <!-- PHẦN TRÊN CÙNG CỦA TRANG -->
+    <header class="header">
+        <img src="/img/1200x44-1200x44-1.webp" alt="Săn sale">
+    </header>
+    <nav>
+        <!-- PHẦN MENU -->
+        <div class="container">
+            <ul class="menu">
+                <li class="icon"><a href="/html/index.html"><img width="250px" height="50px" src="/img/screenshot_1678118647.png" alt="icon"></a></li>
+                <li>
+                    <a id="form-locate"> Xem giá tồn kho tại: <br>Thái Nguyên <a href=""><i class="fa-solid fa-sort-down"></i></a></a>
+                    <div class="adress_form" id="adress-form">
+                        <div class="adress_content">
+                            <div class="adress-content-header">
+                                <p>Quý khách vui lòng cho biết Địa chỉ nhận hàng để biết chính xác thời gian giao hàng</p>
+                                <div class="close-form" id="close-form">
+                                    <i class="fa-solid fa-xmark"><p></p></i>
+                                    <p>Đóng</p>
+                                </div>
+                            </div>
+                            <div class="adress-search">
+                                <input type="text" name="" id="" placeholder="Tìm nhanh tỉnh thành, quận huyện, phường xã">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <strong class="choose-province">Hoặc chọn tỉnh, thành phố</strong>
+                            <div class="listing-locate">
+                                <ul class="menu-locate">
+                                    <li>Thanh Hoá</li>
+                                    <li style="background-color: #fff;border: none;border-bottom: 1px solid #f1f1f1;padding: 10px;">Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li style="background-color: #fff;border: none;border-bottom: 1px solid #f1f1f1;padding: 10px;">Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                    <li>Thanh Hoá</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </li>
+                <li>
+                    <form action="" method="get">
+                    <input type="text" name="keywords" placeholder="Bạn muốn tìm gì...">
+                    <i class="fa-solid fa-magnifying-glass"> </i>
+                    </form>
+                </li>
+                <li><a href=""> Lịch sử đơn hàng </a></li>
+                <li class="cart"><a href=""><button><i class="fa-solid fa-cart-shopping"></i> Giỏ hàng
+                    <span id="total" class="cart-number has-cart"></span>
+                </button></a></li>
+                <li><a href=""> 24h Công nghệ</a></li>
+                <li><a href=""> Hỏi Đáp </a></li>
+                <li><a href=""> Game App </a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <nav>
+        <!-- PHẦN THANH CHON MENU -->
+        <section class="menu-bar">
+            <div class="container"></div>
+                <div class="menu-bar-content">
+                    <ul>
+                        <li><a href=""><i class="fa-solid fa-mobile-screen-button" ></i> Điện thoại</a></li>
+                        <li><a href=""><i class="fa-solid fa-laptop"></i> Laptop </a></li>
+                        <li><a href=""><i class="fa-solid fa-tablet"></i> Tablet</a></li>
+                        <li>
+                            <a href="" id="accessories"><i class="fa-solid fa-headphones" ></i> Phụ kiện <i class="fa-solid fa-sort-down"></i></a>
+                            <div class="navmwg close" id="navmwg">
+                                <div class="item-child">
+                                    <strong>Phụ kiện di động</strong>
+                                    <a href="">Sạc dự phòng</a>
+                                    <a href="">Pin sạc dự phòng</a>
+                                    <a href="">Cáp sạc</a>
+                                    <a href="">Củ sạc</a>
+                                    <a href="">Thẻ nhớ</a>
+                                    <a href="">USB OTG</a>
+                                    <a href="">Dán màn hình</a>
+                                    <a href="">Ốp lưng</a>
+                                    <a href="">Gậy chụp hình</a>
+                                </div>
+                                <div class="item-child">
+                                    <strong>Phụ kiện di động</strong>
+                                    <a href="">Sạc dự phòng</a>
+                                    <a href="">Pin sạc dự phòng</a>
+                                    <a href="">Cáp sạc</a>
+                                    <a href="">Củ sạc</a>
+                                    <a href="">Thẻ nhớ</a>
+                                    <a href="">USB OTG</a>
+                                    
+                                </div>
+                                <div class="item-child">
+                                    <strong>Phụ kiện di động</strong>
+                                    <a href="">Sạc dự phòng</a>
+                                    <a href="">Pin sạc dự phòng</a>
+                                    <a href="">Cáp sạc</a>
+                                    <a href="">Củ sạc</a>
+                                    <a href="">Thẻ nhớ</a>
+                                    
+                                </div>
+                                <div class="item-child">
+                                    <strong>Phụ kiện di động</strong>
+                                    <a href="">Sạc dự phòng</a>
+                                    <a href="">Pin sạc dự phòng</a>
+                                    <a href="">Cáp sạc</a>
+                                    <a href="">Củ sạc</a>
+                                    <a href="">Thẻ nhớ</a>
+                                   
+                                </div>
+                                <div class="item-child">
+                                   <a href="">Cáp sạc</a>
+                                    <a href="">Sạc dự phòng</a>
+                                    <a href="">Pin sạc dự phòng</a>
+                                    <a href="">Cáp sạc</a>
+                                    <a href="">Củ sạc</a>
+                                    
+                                </div>
+                                <div class="item-child">
+                                    <strong>Phụ kiện di động</strong>
+                                    <a href="">Sạc dự phòng</a>
+                                    <a href="">Pin sạc dự phòng</a>
+                                    <a href="">Cáp sạc</a>
+                                    <a href="">Củ sạc</a>
+                                
+                                </div>
+                                <div class="item-child">
+                                    <strong>Phụ kiện di động</strong>
+                                    <a href="">Sạc dự phòng</a>
+                                    <a href="">Pin sạc dự phòng</a>
+                                    <a href="">Cáp sạc</a>
+                                    <a href="">Củ sạc</a>
+                            
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href=""><i class="fa-solid fa-clock"></i> Smartwatch</a></li>
+                        <li><a href=""><i class="fa-solid fa-pager"></i> Đồng hồ</a></li>
+                        <li><a href=""><i class="fa-solid fa-mobile-screen-button"></i> Máy cũ giá rẻ</a></li>
+                        <li>
+                            <a id="PC-Show" href="#"><i class="fa-solid fa-desktop"></i> PC, Máy in <i class="fa-solid fa-sort-down"></i></a>
+                            <div class="navmwg limit close" id="navmwg-limit">
+                                <a href="">Máy in</a>
+                                <a href="">Máy tính</a>
+                                <a href="">Máy tính bảng</a>
+                                <a href="">Máy case</a>
+                                <a href="">Máy in</a>
+                            </div>
+                        </li>
+                        <li><a href="">Sim, Thẻ cào</a></li>
+                        <li><a href="">Dịch vụ tiện ích</a></li>
+                    </ul>
+                </div>
+
+        </section>
+    </nav>
+    <section>
+        <div id="cart-products" class="cart-form">
+            <div class="middleCart">
+                
+            </div>
+        </div>
+    </section>
+   
+</body>
+<script src="/js/cart.js"></script>
+</html>

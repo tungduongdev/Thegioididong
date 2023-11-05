@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cart-form {
+    display: block;
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    min-width: 0;
+}
+.middleCart {
+    display: block;
+    background: #fff;
+    box-shadow: 0 0 18px rgba(0,0,0,.12);
+    border-radius: 2px;
+}
+.listing-cart {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 20px 30px;
+    width: 100%;
+    list-style: none;
+}
+.infor {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.product-name {
+    float: left;
+    width: 70%;
+    font-size: 14px;
+    color: #333;
+    font-weight: 700;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+.product-name span {
+    overflow: hidden;
+    font-size: 12px;
+    color: #666;
+    padding: 6px 0 0 10px;
+}
+.price {
+    float: right;
+    color: #f30c28;
+    font-size: 14px;
+    text-align: right;
+    margin-bottom: 2px;
+}
+.choose-color {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    width: 500px;
+}
+.choose-number {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    padding: 10px;
+    width: 110px;
+}
+.choose-number input{
+    font-size: 14px;
+    color: #333;
+    float: left;
+    width: 50%;
+    height: 30px;
+    text-align: center;
+}
+.minus, .plus {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-right: 0;
+}
+.minus:hover, .plus:hover {
+    background: #f30c28;
+    color: #fff;
+    border: 1px solid #f30c28;
+}
+.total-money {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+    width: 542px;
+}
+.listing-cart li {
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+}
+.agree {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+    width: 600px;
+}
+.agree i {
+    font-size: 20px;
+    color: #f30c28;
+    margin-right: 10px;
+}
+.agree span {
+    font-size: 14px;
+    color: #333;
+}
+.buy {
+    display: block;
+    width: 542px;
+    padding: 10px;
+    background: #f30c28;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+    margin-top: 10px;
+    text-align: center;
+}
+.delete i{
+    font-size: 20px;
+    margin-right: 5px;
+}
