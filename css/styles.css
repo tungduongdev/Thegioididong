@@ -51,6 +51,12 @@ nav .container .menu li:nth-child(3) input{
     height: 45px;
     border-radius: 5px;
     border: 1px solid rgb(255 188 3);
+    outline: none;
+}
+nav .container .menu li:nth-child(3) input::placeholder {
+    color: #333;
+    font-size: 12px;
+    padding-left: 10px;
 }
 nav .container .menu li:nth-child(3) i{
     position: absolute;
@@ -534,7 +540,7 @@ nav .container .menu li:nth-child(7) a{
 .adress_content {
     max-width: 476px;
     width: 100%;
-    height: 55vh;
+    height: 60vh;
     background-color: #2f80ed;
     border-radius: 8px;
     overflow: hidden;
@@ -587,6 +593,7 @@ nav .container .menu li:nth-child(7) a{
     margin-top: 10px;
     border: none;
     border: 1px solid #fff;
+    outline: none;
 }
 .choose-province {
     display: block;
@@ -614,8 +621,20 @@ nav .container .menu li:nth-child(7) a{
     width: 80%;
     border-bottom: 1px solid #f1f1f1;
 }
+
 .menu-locate .li-four{
     background-color: unset;
+}
+
+nav .container .menu .listing-locate .menu-locate li:nth-child(2), nav .container .menu .listing-locate .menu-locate li:nth-child(4){
+    border: none;
+    background-color: #fff;
+    display: block;
+    color: #333;
+    width: 80%;
+    border-bottom: 1px solid #f1f1f1;
+    line-height: unset;
+    padding: 10px;
 }
 .show {
     display: flex;
@@ -892,3 +911,31 @@ nav .container .menu li:nth-child(7) a{
     text-align: center;
     line-height: 20px;
 }
+
+.province {
+    display: inline-block;
+    width: 100px;
+    overflow: hidden;
+    color: #333;
+    font-weight: bold;
+    width: max-content;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    max-width: 117px;
+    text-transform: capitalize;
+}
+
+#form-locate {
+    position: relative;
+}
+
+#form-locate i{
+    font-size: 17px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
