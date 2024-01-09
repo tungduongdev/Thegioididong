@@ -16,7 +16,7 @@ const render = () => {
     let data = ``;
     products.map(value => {
     data = `
-    <a id="addcart" onclick="addToCart(${value.id})">MUA NGAY RẺ QUÁ 26.480.000₫</a>
+    <a id="addcart" href="/html/cart.html" onclick="addToCart(${value.id})">MUA NGAY RẺ QUÁ 26.480.000₫</a>
     <div class="block2">
         <a href="">
             <p>MUA TRẢ GÓP</p>

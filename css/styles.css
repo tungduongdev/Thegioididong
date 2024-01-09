@@ -938,4 +938,6 @@ nav .container .menu .listing-locate .menu-locate li:nth-child(2), nav .containe
     transform: translateY(-50%);
     z-index: 2;
 }
-
+ .hidden {
+    display: none;
+ }

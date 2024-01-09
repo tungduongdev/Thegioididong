@@ -37,7 +37,7 @@ const renderProduct = () => {
                         </div>
                     </li>
                     <div class="total-money">
-                        <span>Tổng tiền: </span>
+                        <span>Tạm tính(${value.quantity} sản phẩm): </span>
                        
                         <span>${VND.format(calculateTotal(value.quantity, value.price))}</span>
                     </div>
@@ -70,12 +70,15 @@ const minusQuantity = (index) => {
         dataProducts.splice(index, 1);
         localStorage.setItem('products', JSON.stringify(dataProducts));
         renderProduct();
+        renderEmptyCart();
     }
 };
 const deleteProduct = (index) => {
     dataProducts.splice(index, 1);
     localStorage.setItem('products', JSON.stringify(dataProducts));
+    Caculator();
     renderProduct();
+    renderEmptyCart();
 };
 renderProduct();
 const closeCart = () => {
@@ -84,3 +87,19 @@ const closeCart = () => {
     }
 };
 closeCart();
+const renderEmptyCart = () => {
+    const emptyCart = document.querySelector('#cart');
+    if(dataProducts.length === 0){
+        emptyCart.innerHTML = `<div class="noproincart">
+        <i class="fa-solid fa-cart-plus"></i>
+        <p class="no-product">Không có sản phẩm nào trong giỏ hàng</p>
+        <a href="/html/index.html">về trang chủ</a>
+        <p class="contact">Khi cần trợ giúp vui lòng gọi <span>1900 232 460</span> hoặc <span>0376623832</span> (7h30 - 22h)</p>
+    </div>`
+    }
+};
+
+renderEmptyCart();
+const Caculator = () => {
+    total.classList.add('hidden');   
+};
